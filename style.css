@@ -1,0 +1,1145 @@
+/* changing the link color */
+a:link,
+a:visited,
+a:hover {
+	color: #21053b;
+	text-decoration: none;
+}
+
+/* smoothing teh scroll */
+html {
+	scroll-behavior: smooth;
+}
+
+/* no borders on the page */
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+/* taking the whole page */
+.wrapper {
+	width: 100%;
+	height: 100%;
+	background-color: #eee;
+}
+.card{
+    width: 1px;
+    height: 1px;
+}
+
+
+.font-face{
+
+	src:url("../res/font/D-DIN.otf");
+	font-family: d-din;
+	
+
+
+
+}
+
+
+
+
+
+
+.do{
+	margin-top: 0;
+	position: relative;
+  
+  }
+  .do .look{
+	
+	margin-top: 0;
+  }
+  .abouts{
+	
+	border-style: groove;
+  width: 70%;
+  border: 2px solid white;
+	border-radius: 12px;
+	padding: 5px;
+	margin-bottom: 10px;
+  }
+  .abouts p{
+	font-family: 'Josefin Sans', sans-serif;
+  font-size: large;
+  color: indianred;
+  
+  }
+  .look h2{
+	color: brown;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+  }
+  
+  .ok div{
+	color: hotpink;
+	border-style: groove;
+  border-color: black;
+  border: 2px solid brown;
+	border-radius: 12px;
+	padding: 5px;
+	width: 0%;
+   
+	
+  } 
+  .ok{
+	background-color: indianred;
+	width:500px;
+	border-radius: 5px;
+	border: 2px solid ;
+	border-radius: 12px;
+   
+	margin: 5px;
+  }
+  .ok div span{
+	height:40px;
+	width:40px;
+	border-radius:50% ;
+	background:#fff;
+	float:right;
+	margin-top:-15px;
+	margin-right: -20px;
+	color: #333;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .ok .one{
+	background: brown;
+	animation:one 1s linear forwards;
+  }
+  .ok .two{
+	background: brown;
+	animation:two 1s linear forwards;
+  }
+  .ok .three{
+	background: brown;
+	animation:three 1s linear forwards;
+  }
+  .ok .five{
+	background: brown;
+	animation:five 1s linear forwards;
+  }
+  .ok .six{
+	background: brown;
+	animation:six 1s linear forwards;
+  }
+  .ok .seven{
+	background:brown;
+	animation:seven 1s linear forwards;
+  }
+  
+  .ok .one span{
+	border:1px solid white;
+  
+  }
+  .ok .two span{
+	border:1px solid white;
+  }
+  .ok .three span{
+	border:1px solid white;
+  }
+  .ok .five span{
+	border:1px solid white;
+  }
+  .ok .six span{
+	border:1px solid white;
+  }
+  .ok .seven span{
+	border:1px solid white;
+  }
+  @keyframes one{
+	100%{
+	  width:40%;
+	}
+  }
+  @keyframes two{
+	100%{
+	  width:70%;
+	}
+  }
+  @keyframes three{
+	100%{
+	  width:80%;
+	}
+  }
+  @keyframes five{
+	100%{
+	  width:90%;
+	}
+  }
+  @keyframes six{
+	100%{
+	  width:95%;
+	}
+  }
+  @keyframes seven{
+	100%{
+	  width:50%;
+	}
+  }
+  .menu-icon{
+	width:25px;
+	cursor: pointer;
+	 display: none;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#skills{
+	display: block;
+	height: 1200px;
+}
+#skills h5{
+	font-size: 30px;
+	color: #212431;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-weight: bolder;
+}
+#skills h6{
+	font-size: 20px;
+	color: #212431;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-weight: bolder;
+}
+.personal{
+	width: 50%;    
+	padding-left: 0px;
+	padding-bottom: 20px;
+	color: white;
+	font-size: 40px;
+}
+.Proffesional{
+	width: 50%;
+	padding-bottom: 20px;
+	color: white;
+	font-size: 40px;
+}
+ .personal h3{
+	font-weight: 100;
+	letter-spacing: 1px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: black;
+	font-size: 25px;
+ }
+ .Proffesional h3{
+	font-weight: 100;
+	letter-spacing: 1px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: black;
+	font-size: 25px;
+ }
+ .personal h5{
+	margin-top: 10px;
+	margin-bottom: 10px; 
+	color: black;
+ }
+ .Proffesional h5{
+	margin-top: 10px;
+	margin-bottom: 10px;  
+	color: black;
+ }
+ .progress_bar{
+	width: 600px;
+	height: 15px;
+	border-radius: 5px;
+	background-color: rgb(146, 146, 146);
+ }
+ .progress_bar .s1{
+	height: 15px;
+	border-radius: 5px;
+	width: 30%;
+	background-color: #212431;
+ }
+ .progress_bar .s2{
+	height: 15px;
+	border-radius: 5px;
+	width: 70%;
+	background-color: #212431;
+ }
+ .progress_bar .s3{
+	height: 15px;
+	border-radius: 5px;
+	width: 90%;
+	background-color: #212431;
+ }
+ .progress_bar .s4{
+	height: 15px;
+	border-radius: 5px;
+	width: 60%;
+	background-color: #212431;
+ }
+ .progress_bar .s5{
+	height: 15px;
+	border-radius: 5px;
+	width: 60%;
+	background-color: #212431
+ }
+ .progress_bar .s6{
+	height: 15px;
+	border-radius: 5px;
+	width: 90%;
+	background-color: #212431;
+ }
+ .progress_bar .s7{
+	height: 15px;
+	border-radius: 5px;
+	width: 90%;
+	background-color: #212431;
+ }
+ .progress_bar .s8{
+	height: 15px;
+	border-radius: 5px;
+	width: 100%;
+	background-color: #212431
+ }
+ .progress_bar div span{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: rgb(215, 210, 150);
+	float: right;
+	margin-top: -15px;
+	margin-right: 0px;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	border: 1px lightgrey solid;
+ } 
+
+
+/* coloring nav, limiting the header,giving top border a line and a color */
+/* header {
+	width: 100%;
+	height: 100px;
+	background-color: rgba(145, 84, 224, 0.5);
+} */
+.whole-img {
+	background-image: url(images/photo_2022-10-11_13-32-37.jpg);
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/* background-color: #430e74;
+		background-blend-mode: overlay;
+		opacity: 0.8; */
+}
+
+/* nav bar objects to center by 80 % */
+.primary-header {
+	/* width: 100%;
+	height: 100%;
+	display: flex; */
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* sending the logo to the left */
+.logo {
+	width: 20%;
+	height: 120px;
+	margin-left: 1px;
+	padding-left: 0;
+	float: left;
+}
+
+.logo img {
+	width: auto;
+	height: 100%;
+	display: flex;
+	float: left;
+}
+
+/* 2 slelectors adding rotation to the logo */
+.logo img:hover {
+	width: auto;
+	height: 100%;
+	display: flex;
+	float: left;
+	animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+
+/* limiting the navigation to make it fit within 100% of the width */
+nav {
+	width: 100%;
+	height: 100%;
+	display: block;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* flex div used "new" */
+.flex {
+	display: flex;
+	gap: var(--gap, 3rem)
+}
+
+.button-toggle {
+	display: none;
+}
+
+/* spacing and adjusting the nav bar */
+.primary-navigation {
+	list-style: none;
+	padding: 0;
+	margin-top: 0;
+	margin-right: 40px;
+	float: right;
+	justify-content: spaced-evenly;
+	display: flex;
+	background-color: hsl(0, 0%, 0%, .5);
+}
+
+/* removing the list buttons */
+ul {}
+
+
+/* modifying the list letters */
+.primary-navigation {
+	font-size: 21px;
+	font-family: sans-serif;
+	font-weight: normal;
+	letter-spacing: 1px;
+	color: #eee;
+}
+
+/* list or anchor hover adjustments */
+.primary-navigation a:hover {
+	font-size: 23px;
+	transition: 0.2s all;
+	font-family: sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+/* working on a single word to make it a button */
+.contactbtn {
+	background-color: #eee;
+	padding: 10px 20px;
+	border-radius: 50px;
+	font-weight: 700;
+	color: #ff0505 !important;
+}
+
+/* button hover property */
+.contactbtn:hover {
+	background-color: #eee;
+	padding: 10px 28px;
+	transition: 0.2s all;
+	border-radius: 50px;
+	font-weight: 700;
+	color: #ff0505 !important;
+}
+
+/* hero height,length and background */
+.hero {
+	width: 100%;
+	height: 540px;
+	max-height: 560px;
+	margin-bottom: 50px;
+
+	/* alternative : start */
+	/* background-image: url(images/spiral.jpg);
+	background-position: top;
+	background-size: cover;
+	background-color: #430e74;
+	background-blend-mode: overlay;
+	opacity: 0.8; */
+	/* : end */
+}
+
+/* hero text div// limiting */
+.herotext {
+	width: 80%;
+	height: auto;
+	margin: auto;
+}
+
+/* adjusting the hero text properties */
+/* fixed text */
+/* .herotext h1 {
+	width: 50%;
+	margin-top: 10%;
+	float: left;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 70px;
+	text-align: right;
+	color: #fff;
+	font-weight: bolder;
+	text-transform: uppercase;
+	line-height: 90px;
+	letter-spacing: 1px;
+} */
+
+/* sliding animation for the hero text */
+.first-txt{
+	width: 50%;
+		margin-top: 5%;
+		float: left;
+		font-family: 'Courier New', Courier, monospace;
+		font-size: 70px;
+		text-align: right;
+		color: #fff;
+		font-weight: bolder;
+		text-transform: uppercase;
+		line-height: 90px;
+		letter-spacing: 1px;
+		animation: slide 5s ease-out;
+}
+
+@keyframes slide {
+	0% {
+		margin-left: -800px;
+	}
+
+	20% {
+		margin-left: -800px;
+	}
+
+	35% {
+		margin-left: 0px;
+	}
+
+	100% {
+		margin-left: 0px;
+	}
+}
+
+/* div of body */
+.bodycontent {
+	width: 80%;
+	height: auto;
+	margin: 0 auto 70px auto;
+}
+
+/* project title */
+.projecth {
+	width: 25%;
+	margin: auto;
+	padding-left: 200px;
+	align-content: center;
+	font-family: sans-serif;
+	color: #21053b;
+	margin-top: 30px;
+	padding-bottom: 1rem;
+}
+
+/* body content padding and alignment */
+.bodycontent {
+	padding: 15px;
+	margin-top: 16px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: #111;
+	font-weight: 400;
+	text-align: center;
+	line-height: 30px;
+}
+
+/* adjusting the body header */
+h2.about {
+	text-align: center;
+	margin-top: 20px;
+	font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+	font-size: 40px;
+	padding-bottom: 15px;
+	color: #21053b;
+}
+
+/* projects */
+.projects {
+	display: flex;
+	justify-content: space-evenly;
+	align-content: center;
+	margin: 40px 0 30px 0;
+}
+
+/* centering the p in the body */
+p {
+	width 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-family: cursive, sans-serif;
+}
+
+/* class of the first div in the projects/ project images */
+.p1 {
+	width: 30%;
+	height: 300px;
+	position: relative;
+	background-image: url(images/Gen\ Z\ logo\ only.png);
+	
+	background-position: center;
+	background-size: cover;
+	box-shadow: 4px 4px 5px #a69b9b;
+}
+
+.p2 {
+	width: 30%;
+	height: 300px;
+	position: relative;
+	background-image: url(images/power.png);
+	background-position: right;
+	background-size: cover;
+	box-shadow: 4px 4px 5px #a69b9b;
+}
+
+.p3 {
+	width: 30%;
+	height: 300px;
+	position: relative;
+	background-image: url(images/own.png);
+	background-position: center;
+	background-size: cover;
+	box-shadow: 4px 4px 5px #a69b9b;
+}
+
+
+
+.p10 {
+	width: 30%;
+	height: 300px;
+	position: relative;
+	background-image: url(photo/arc1.jpg);
+	
+	background-position: center;
+	background-size: cover;
+	box-shadow: 4px 4px 5px #a69b9b;
+}
+
+.p20 {
+	width: 30%;
+	height: 300px;
+	position: relative;
+	background-image: url(photo/arc4.jpg);
+	background-position: right;
+	background-size: cover;
+	box-shadow: 4px 4px 5px #a69b9b;
+}
+
+.p30 {
+	width: 30%;
+	height: 300px;
+	position: relative;
+	background-image: url(photo/arc3d.jpg);
+	background-position: center;
+	background-size: cover;
+	box-shadow: 4px 4px 5px #a69b9b;
+}
+
+
+/* hover of the div in the projects/ project images */
+.p1:hover {
+	width: 30%;
+	height: 300px;
+	position: relative;
+	background-image: url(images/Gen\ Z\ logo\ only.png);
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: overlay;
+	background-color: #430e74;
+	transition: 0.4s all;
+	transform: scale(1.07);
+	box-shadow: 4px 4px 5px #a69b9b;
+}
+
+.p2:hover {
+	width: 30%;
+	height: 300px;
+	position: relative;
+	background-image: url(images/power.png);
+	background-position: right;
+	background-size: cover;
+	background-blend-mode: overlay;
+	background-color: #430e74;
+	transition: 0.4s all;
+	transform: scale(1.07);
+	box-shadow: 4px 4px 5px #a69b9b;
+}
+
+.p3:hover {
+	width: 30%;
+	height: 300px;
+	position: relative;
+	background-image: url(images/own.png);
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: overlay;
+	background-color: #430e74;
+	transition: 0.4s all;
+	transform: scale(1.07);
+	box-shadow: 4px 4px 5px #a69b9b;
+}
+
+
+.p10:hover {
+	width: 30%;
+	height: 300px;
+	position: relative;
+	background-image: url(photo/arc2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: overlay;
+	background-color: #430e74;
+	transition: 0.4s all;
+	transform: scale(1.07);
+	box-shadow: 4px 4px 5px #a69b9b;
+}
+
+.p20:hover {
+	width: 30%;
+	height: 300px;
+	position: relative;
+	background-image: url(photo/arc5.jpg);
+	background-position: right;
+	background-size: cover;
+	background-blend-mode: overlay;
+	background-color: #430e74;
+	transition: 0.4s all;
+	transform: scale(1.07);
+	box-shadow: 4px 4px 5px #a69b9b;
+}
+
+.p30:hover {
+	width: 30%;
+	height: 300px;
+	position: relative;
+	background-image: url(photo/arc9.jpg);
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: overlay;
+	background-color: #430e74;
+	transition: 0.4s all;
+	transform: scale(1.07);
+	box-shadow: 4px 4px 5px #a69b9b;
+}
+
+
+/* 
+.root{
+	primary:#fe58a0;
+	text:#363636;
+	light:#888888;
+} */
+
+
+
+
+/* projects=>p1,p2,p2=>plevel texts */
+.plevel {
+	width: 100%;
+	height: 40%;
+	position: absolute;
+	top: 100%;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #21053b;
+	text-align: center;
+	padding: 15px 0px 15px 0;
+}
+
+/* dash under the about class */
+.line1 {
+	width: 10%;
+	height: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #dd5242;
+	margin-top: -3px;
+}
+
+/* dashes under the projects images */
+.line2 {
+	width: 10%;
+	height: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #dd5242;
+	margin-top: -3px;
+	position: relative;
+	top: 120%;
+}
+
+/* dash for the project text */
+.line3 {
+	width: 10%;
+	height: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #dd5242
+}
+
+/* join me div */
+.join {
+	width: 100%;
+	height: 300px;
+	margin-top: 120px;
+	padding-bottom: 30px;
+	background: #21053b;
+}
+
+/* div containing question text, input and button */
+.contactme {
+	width: 80%;
+	height: auto;
+	margin: auto;
+}
+
+/* adjusting the question text */
+.question {
+	padding-top: 50px;
+	text-align: center;
+	font-size: 40px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	color: #999;
+}
+
+/* div of input and button adjustment of width and horizontal alignment */
+.data {
+	width: 70%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+
+/* adjusting the input width ,rad ,color and outline(border) */
+.youremail {
+	width: 65%;
+	height: 50px;
+	float: left;
+	border-radius: 50px;
+	margin-left: 3%;
+	padding-left: 15px;
+	border: 1px solid #ccc;
+	outline: none;
+}
+
+/* placeholder color and size */
+::placeholder {
+	font-size: 18px;
+	color: #999;
+}
+
+/* no space inorder to work */
+/* inputed text */
+input[type='email'] {
+	font-size: 18px;
+	color: #999
+}
+
+/* submit button rad, width, alignment and properties of text and object, border */
+.button {
+	width: 25%;
+	height: 50px;
+	float: left;
+	margin-left: 2%;
+	text-align: center;
+	line-height: 50px;
+	font-weight: 600;
+	background: #dd5242;
+	border: 0;
+	border-radius: 50px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.button:hover {
+	width: 25%;
+	height: 50px;
+	transition: 0.2s all;
+	transform: scale(1.1);
+	float: left;
+	margin-left: 2%;
+	text-align: center;
+	line-height: 50px;
+	font-weight: 600;
+	background: #090cbe;
+	border: 0;
+	border-radius: 50px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+/* footer div color,width, horizontal alignment , while keeping an even space between*/
+footer {
+	width: 100%;
+	height: 70px;
+	background-color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* copyright text adjustment */
+.copyright {
+	font-weight: 400px;
+	color: #7e7c7c;
+	font-size: 14px;
+	font-family: sans-serif;
+	margin-left: 20px;
+}
+
+/* icons div size and also even space between*/
+.socials {
+	width: 10%;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 20px;
+}
+
+/* icons size adjustment */
+.socials img {
+	weight: 30px;
+	height: 30px;
+	transform: scale(1.0)
+}
+
+/* icons transformation when hovered on */
+.socials img:hover {
+	weight: 30px;
+	height: 30px;
+	cursor: pointer;
+	transition: 0.4s all;
+	transform: scale(1.3)
+}
+
+.git {
+	padding-right: 20px;
+}
+
+/* mobile support */
+
+/* a fall-back for browsers that doesn't support blur */
+@supports (backdrop-filter: blur(.75rem)) {
+	.primary-navigation {
+		background-color: hsl(0, 0%, 100%, .2);
+		backdrop-filter: blur(1rem);
+	}
+}
+
+.primary-navigation a>[aria-hidden="true"] {
+	font-weight: 700;
+}
+
+
+/* adjusting the sliding out menu (when visible) for the maximum possible screen */
+/* 120% translateX is how far the menu goes off the screen */
+@media (max-width: 35em) {
+	.primary-navigation {
+		position: absolute;
+		height: 457px;
+		z-index: 1000;
+		--gap: 3rem;
+		inset: 0 0 0 40%;
+		flex-direction: column;
+		padding: min(20vh, 10rem) 2rem;
+		transform: translateX(120%);
+		transition: transform 350ms ease-out;
+	}
+	.first-txt{
+		margin-top: 1%;
+	}
+
+	/* for the min width- hidden menu */
+	@media (min-width: 35em)
+{
+	/* active horizontal movement of the navigation elements while resizing the browser window */
+		.primary-navigation {
+			padding-block: 2rem;
+			padding-inline: clamp(3rem, 5vw, 10rem);
+		}
+	}
+
+	/* how much the menu pops out when clicked */
+	.primary-navigation[data-visible="true"] {
+		transform: translateX(16%);
+	}
+
+	/* importing and adjusting the button */
+	.button-toggle {
+		display: block;
+		z-index: 9999;
+		position: absolute;
+		background-color: #999;
+		background-image: url(images/3-dot.svg);
+		width: 3rem;
+		background-repeat: no-repeat;
+		border: 0;
+		aspect-ratio: 1;
+		top: 2rem;
+		right: 2rem;
+		cursor: pointer;
+	}
+
+	/* button when expanded (x) */
+	.button-toggle[aria-expanded="true"] {
+		background-image: url(images/close.svg);
+	}
+
+
+
+	
+
+
+/* expansion and contraction of the menu */
+@media (min-width: 35em) and (max-width: 55em) {
+	.primary-navigation a>[aria-hidden] {
+		display: hidden;
+	}
+}
+
+
+@media screen and (max-width: 35em) {
+/* making the image fit the height of the screen */
+	.whole-img {
+		height: 700px;
+	}
+
+/* project text adjustment */
+	.projecth {
+		width: 25%;
+		margin: auto;
+		padding-left: 10px;
+		align-content: center;
+		font-family: sans-serif;
+		color: #21053b;
+		margin-top: 30px;
+		padding-bottom: 1rem;
+	}
+
+	.logo img {
+		width: auto;
+		height: 100%;
+		display: flex;
+		float: left;
+		animation: rotation 5s infinite linear;
+	}
+/* rotation of the logo when overed upon using the rotation/animation att. right on top of this code */
+	@keyframes rotation {
+		from {
+			transform: rotate(0deg);
+		}
+
+		to {
+			transform: rotate(360deg);
+		}
+	}
+
+	/* adjusting the hero text to fit a smaller screen */
+	.herotext h1 {
+		width: auto;
+		float: left;
+		font-size: 50px;
+		margin-top: 3rem;
+	}
+
+	/* adjusting the projects list to appear on top of eachother */
+	.projects {
+		flex-wrap: wrap;
+	}
+
+	.p1,
+	.p2,
+	.p3 {
+		width: 100%;
+		height: 300px;
+		margin-bottom: 100px;
+	}
+
+	.p1:hover,
+	.p2:hover,
+	.p3:hover {
+		width: 100%;
+		height: 300px;
+		margin-bottom: 30px;
+		z-index: 500;
+	}
+
+	/* contact me section adjustment */
+	.join {
+		width: 100%;
+		height: 400px;
+	}
+
+	.data {
+		width: 100%;
+	}
+
+	.youremail {
+		width: 100%;
+		padding-left: 2rem;
+	}
+
+	::placeholder {
+		font-size: 15px;
+	}
+
+	input [type='email'] {
+		font-size: 15px;
+	}
+
+	.button {
+		width: 70%;
+		font-size: 18px;
+	}
+
+	.button:hover {
+		width: 50%;
+		font-size: 18px;
+		transition: 0.4s all;
+	}
+
+	/* always apply the wrap attribute for the div element */
+
+	/* aligning the footer elements to the center and above eachother */
+	footer {
+		flex-wrap: wrap;
+	}
+
+	.copyright {
+		width: 100%;
+		text-align: center;
+	}
+
+	.socials {
+		width: 100%;
+		margin-left: 50px;
+		justify-content: center;
+	}
+}
